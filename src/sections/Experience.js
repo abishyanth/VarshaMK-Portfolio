@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { resumeData } from '../data/resume';
-import { Briefcase, Calendar, Rocket, Database, Activity } from 'lucide-react';
+import { Calendar, Rocket, Database } from 'lucide-react';
 
 const ExperienceItem = ({ exp, index }) => {
     return (
