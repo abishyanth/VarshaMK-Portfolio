@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-import { motion, useScroll, useTransform, useSpring, useMotionValue } from 'framer-motion';
+import { motion, useScroll, useTransform, useMotionValue } from 'framer-motion';
 import { resumeData } from '../data/resume';
 
 const RotatingRoles = () => {
@@ -33,7 +33,7 @@ const Hero = () => {
     const heroRef = useRef(null);
     const { scrollY } = useScroll();
     const y1 = useTransform(scrollY, [0, 500], [0, 200]);
-    const y2 = useTransform(scrollY, [0, 500], [0, -150]);
+    // const y2 = useTransform(scrollY, [0, 500], [0, -150]);
 
     // Mouse Spotlight Effect
     const mouseX = useMotionValue(0);
