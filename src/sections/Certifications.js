@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import { resumeData } from '../data/resume';
-import { Award, ExternalLink, ShieldCheck } from 'lucide-react';
+import { ExternalLink, ShieldCheck } from 'lucide-react';
 
 const Certifications = () => {
     const [hoveredIndex, setHoveredIndex] = useState(null);
